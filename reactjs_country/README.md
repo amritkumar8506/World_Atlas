@@ -1,12 +1,31 @@
-# React + Vite
+# WorldAtlas - Explore the World, One Country at a Time
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web application to explore countries with details like population, capital, interesting facts, and more.  
+Built using React Router v6 for clean nested routing and modern React best practices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Responsive navbar with hamburger menu for mobile
+- Home page with hero section and smooth scroll
+- About page displaying interesting country facts loaded from JSON data
+- Country listing page showing country cards with flag, population, region, and capital
+- Country details page using dynamic routing (`/country/:id`)
+- Contact page for user inquiries
+- Custom 404 Error page
+- Clean layout with shared components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- React 18+
+- React Router v6 (`createBrowserRouter`)
+- React Icons for UI icons
+- CSS Grid & Flexbox for layout
+- JSON data for static country facts
+
+---
+
+## Folder Structure
