@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "MdPlace",
+        "title": "Find us",
+        "details": "Delhi, India"
+    },
+    {
+        "icon": "IoCallSharp",
+        "title": "Call us",
+        "details": "8506078410"
+    },
+    {
+        "icon": "TbMailPlus",
+        "title": "Mail us",
+        "details": "amritkumar8410@gmail.com"
+    }
+]
